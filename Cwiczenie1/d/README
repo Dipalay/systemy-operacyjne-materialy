@@ -1,0 +1,35 @@
+========================================================================
+Autor: Piotr Topór,                               Kraków, 17.03.2026
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog d zawiera prosty program w jezyku C:
+    drzewo.c  - program na symulacje generowania drzewa procesow.
+------------------------------------------------------------------------
+
+* Jak uruchomic program:
+========================
+
+Katalog zawiera program Makefile do kompilacji, linkowania
+i uruchamiania powyzszych programow, a takze czyszczenia katalogu 
+i jego archiwizacji.
+
+-> Aby wyswietlic pomoc (liste dostepnych celow), nalezy wykonac:
+       make help
+
+-> Aby uruchomic program, nalezy w linii polecen powloki wykonac:
+       make run
+
+---> Dla pewnosci, ze wykonywane sa polecenia zdefiniowane w Makefile,
+     a nie wbudowane polecenia make'a, uzyc opcji -r, tzn.
+       make -r run
+
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+
+========================================================================

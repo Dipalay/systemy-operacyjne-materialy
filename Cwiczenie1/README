@@ -1,0 +1,19 @@
+========================================================================
+Autor: Piotr Topór,                               Kraków, 17.03.2026
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog Cwiczenie1 zawiera piec podkatalogow: a, b, c, d, e z prostymi 
+przykladowymi programami w jezyku C - szczegoly w plikach README w tych 
+podkatalogach.
+
+Ponadto znajduje sie tu prosty plik Makefile zawierajacy polecenie 
+programu make do archiwizacji/kompresji calego biezacego katalogu oraz
+jego czyszczenia z plikow tymczasowych.
+
+-> W celu archiwizacji/kompresji katalogu nalezy z poziomu powloki wykonac:
+   make tar
+
+========================================================================
